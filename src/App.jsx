@@ -4,7 +4,7 @@ import "sweetalert2/dist/sweetalert2.min.css";
 import "./App.css";
 
 export default function App() {
-  const max = 50;
+  const max = 100;
   const [count, setCount] = useState(0);
   const [warning, setWarning] = useState(false);
 
@@ -15,7 +15,7 @@ export default function App() {
       // SweetAlert muncul di sini
       Swal.fire({
         title: "🚫 Kapasitas Penuh!",
-        text: "Jumlah pengunjung sudah mencapai batas maksimal 50 orang.",
+        text: "Jumlah pengunjung sudah mencapai batas maksimal {max} orang.",
         icon: "warning",
         confirmButtonText: "Mengerti",
         background: "#0f1419",
