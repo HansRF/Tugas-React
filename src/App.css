@@ -137,6 +137,11 @@ header h1 {
   background: linear-gradient(135deg, #ffeb3b, #ffc107);
   box-shadow: 0 0 18px rgba(255, 235, 59, 0.35);
 }
+.btn.orange {
+  background: linear-gradient(135deg, #ff9100, #fd7e14);
+  box-shadow: 0 0 18px rgba(255, 145, 0, 0.35);
+}
+
 .btn:hover {
   transform: scale(1.09);
   box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
