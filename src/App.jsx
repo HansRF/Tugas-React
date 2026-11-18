@@ -64,6 +64,8 @@ export default function App() {
         <button className="btn green" onClick={() => addVisitor(1)}>+1</button>
         <button className="btn blue" onClick={() => addVisitor(2)}>+2</button>
         <button className="btn orange" onClick={() => addVisitor(3)}>+3</button>
+        <button className="btn purple" onClick={() => addVisitor(4)}>+4</button>
+        <button className="btn yellow" onClick={() => addVisitor(5)}>+5</button>
         <button className="btn red" onClick={reset}>Reset</button>
       </section>
 
