@@ -63,7 +63,7 @@ export default function App() {
       <section className="button-section">
         <button className="btn green" onClick={() => addVisitor(1)}>+1</button>
         <button className="btn blue" onClick={() => addVisitor(2)}>+2</button>
-        <button className="btn blue" onClick={() => addVisitor(5)}>+3</button>
+        <button className="btn yellow" onClick={() => addVisitor(5)}>+3</button>
         <button className="btn red" onClick={reset}>Reset</button>
       </section>
 
