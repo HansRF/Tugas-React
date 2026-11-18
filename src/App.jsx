@@ -15,7 +15,7 @@ export default function App() {
       // SweetAlert muncul di sini
       Swal.fire({
         title: "🚫 Kapasitas Penuh!",
-        text: "Jumlah pengunjung sudah mencapai batas maksimal 50 orang.",
+        text: "Jumlah pengunjung sudah mencapai batas maksimal {max} orang.",
         icon: "warning",
         confirmButtonText: "Mengerti",
         background: "#0f1419",
