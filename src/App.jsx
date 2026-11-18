@@ -56,7 +56,7 @@ export default function App() {
           {count}
         </div>
         <p className="info">
-          Maksimal kapasitas: <strong>50 orang</strong>
+          Maksimal kapasitas: <strong>{max} orang</strong>
         </p>
       </section>
 
