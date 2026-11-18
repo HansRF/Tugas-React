@@ -133,9 +133,9 @@ header h1 {
   background: linear-gradient(135deg, #ff1744, #dc3545);
   box-shadow: 0 0 18px rgba(255, 80, 80, 0.35);
 }
-.btn.yellow {
-  background: linear-gradient(135deg, #ffeb3b, #ffc107);
-  box-shadow: 0 0 18px rgba(255, 235, 59, 0.35);
+.btn.brown {
+  background: linear-gradient(135deg, #795548, #6c4f3d);
+  box-shadow: 0 0 18px rgba(121, 85, 72, 0.35);
 }
 .btn.orange {
   background: linear-gradient(135deg, #ff9100, #fd7e14);
