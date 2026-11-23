@@ -70,7 +70,7 @@ export default function App() {
       </section>
 
       <footer>
-        <p className="footer-text">© 2026 Bioskop XXI | Sistem Penghitung Manual</p>
+        <p className="footer-text">© 2026 Bioskop Mini | Sistem Penghitung Manual</p>
       </footer>
     </main>
   );
